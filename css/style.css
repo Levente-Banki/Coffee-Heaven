@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    background-image: url(../kepek/Background-grey.png);
+    color: #fff;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.valaszto img, .kedvenc_Kave{
+    transition: transform .2s;
+}
+.valaszto img{
+    border: #fff solid 3px;
+    width: 70%;
+    height: 50%; 
+}
+h1{
+    padding-top: 50px;
+    font-size: 70px;
+}
+.divek{
+    margin: 0 auto;
+    width: 80%;
+}
+.titan_valasztas img{
+    width: 30%;
+}
+.valaszto img:hover,.kedvenc_Kave:hover{
+    transform: scale(1.05);
+}
+
+
+.gombok, .valaszto img{
+    border-radius: 100px;
+}
+
+.szovegek{
+    font-size: 25px;
+}
+
+.fokep{
+    background-image: url(../kepek/Main-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h3{
+    padding: 410px 0px 400px 0px;
+}
+.raw img{
+    margin-top: 260px;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.raw{
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+header{
+    border-bottom: #f2b78f solid 3px;
+}
+footer{
+    border-top: #f2b78f solid 3px;
+}
+.sticky-header nav, footer, h1, .logok, .valaszto{
+    text-align: center;
+}
+.sticky-header, footer{
+    background-color: rgb(2, 2, 2);
+}
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.sticky-header nav {
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: none;
+}
+a, .sticky-header {
+    color: #fff;
+}
+a,.kedvenc_Kave p{
+    text-decoration: none;
+}
+nav a{
+    padding: 15px 50px;
+    font-size: 25px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav img {
+    height: 70px;
+    width: auto;
+}
+ul{
+    padding-bottom: 20px;
+    padding-top: 15px !important;
+}
+li{
+    padding-top: 30px;
+}
+.gombok{
+    background-color: #f2b78f;
+
+}
+footer h3{
+    margin: 0px;
+    padding: 50px;
+}
+footer a{
+    color: #f2b78f;
+}
+.logok{
+    width: 100%;
+}
+
+.slideso{
+    width: 70% ;
+    padding: 50px 0px 70px 0px;
+    margin: 0 auto;
+}
+.getAdress{
+    border: #f2b78f 10px solid;
+    padding: 25px;
+
+}
+.IranyCucc{
+    width: 850px;
+    background-color: rgba(0, 0, 0, 0.86);
+    padding: 50px;
+}
+.IranyCucc, .getAdress, .kulsoNezetJo, iframe{
+    margin: 0 auto ;
+    border-radius: 20px;
+}
+.kulsoNezetJo{
+    padding: 161px;
+}
+h5{
+    padding-bottom: 30px;
+}
+.kedvencek{
+    background-image: url(../kepek/Coffee_Backgroung.jpg);
+    padding-top: 15px;
+}
+.kedvencek img{
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+}
+.container{
+    padding: 0px !important;
+}
+.kedvenc_Kave img{
+    padding: 22px;
+}
+.kedvenc_Kave img, .kedvenc_Kave p, h2{
+    background-color: #000;
+}
+.kedvenc_Kave p{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    width: 30%;
+    padding: 5px;
+    margin-left: 105px;
+}
+.kedvencek h2{
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 10px;
+    padding: 10px;
+}
+.lathatatlan{
+    padding-top: 50px;
+}
+iframe{
+    margin: 50px 0px 20px 120px;
+    width: 80%;
+    height: 300px;
+}

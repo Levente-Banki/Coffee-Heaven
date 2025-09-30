@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.sticky-header, footer{
+    background-color: rgb(2, 2, 2);
+    color: #f9ba91;
+}
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.sticky-header nav {
+    padding: 5px;
+}
+.sticky-header nav, footer, h1, .logok, .valaszto{
+    text-align: center;
+}
+.sticky-header, footer{
+    background-color: rgb(2, 2, 2);
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: none;
+}
+a, .sticky-header{
+    color: #fff;
+}
+header{
+    border-bottom: 3px solid #f9ba91;
+}
+nav a {
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 25px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav img {
+    height: 70px;
+    width: auto;
+}
+ul{
+    padding-bottom: 20px;
+    padding-top: 15px !important;
+}
+li{
+    padding-top: 30px;
+}
+.gombok, .vissza{
+    background-color: #f2b78f;
+    color: #000 !important;
+}
+.gombok{
+    border-radius: 100px;
+}
+body{
+    background-image: url(../kepek/Coffee_Backgroung.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.sticky-header, nav a, body, .vissza{
+    color: #fff;
+}
+footer a{
+    color: #f9ba91;
+    text-decoration: none;
+}
+.info, .lathatatlanfos{
+    background-color: #000;
+    margin: none;
+    padding-top: 25px;
+}
+.vissza {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    border-top: 3px solid #f9ba91;
+}
+.lathatatlanfos {
+    padding: 88px;
+}
+.imgs {
+    border : 3px solid #f9ba91;
+}

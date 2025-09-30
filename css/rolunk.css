@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    background-image: url(../kepek/Background-grey.png);
+    color: #fff;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.divek{
+    margin: 0 auto;
+    width: 80%;
+}
+section{
+    background-color: #000;
+}
+header{
+    border-bottom: #f2b78f solid 3px;
+}
+footer{
+    border-top: #f2b78f solid 3px;
+}
+.sticky-header nav, footer, h1, .logok, .valaszto{
+    text-align: center;
+}
+.sticky-header, footer{
+    background-color: rgb(2, 2, 2);
+}
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.sticky-header nav {
+    padding: 5px;
+}
+a, .sticky-header {
+    color: #fff;
+}
+h1{
+    padding: 50px 0px 50px;
+}
+nav ul {
+    list-style: none;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav a{
+    padding: 15px 50px;
+    font-size: 25px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav img {
+    height: 70px;
+    width: auto;
+}
+ul{
+    padding-bottom: 20px;
+    padding-top: 15px !important;
+}
+li{
+    padding-top: 30px;
+}
+.gombok{
+    background-color: #f2b78f;
+    border-radius: 100px;
+}
+footer h3{
+    margin: 0px;
+    padding: 50px;
+}
+footer a{
+    color: #f2b78f;
+}

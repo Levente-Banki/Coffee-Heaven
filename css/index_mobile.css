@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+    .eltun{
+        display: none;
+    }
+    .raw{
+        --bs-gutter-y: 0;
+        display: block;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+    }
+    .raw img{
+        margin: 260px 0px 260px 0px;
+        width: 80%;
+        
+    }
+    .titan_valasztas img{
+        width: 70% !important;
+    }
+  }
